@@ -15,4 +15,3 @@ This project is about how to use github.
 
 - Lecture4: // git checkout -- ten_file -> Xóa modified của file đó.
 			// git reset ten_file -> Đưa file hiện tại đang trong Staging Area về lại file cũ của nó.
-
