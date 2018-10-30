@@ -1,5 +1,14 @@
-This is a demo about git :">
+This project is about how to use github.
 
-Bài 1 là về: init một thư mục git, commit, kiểm tra status và add file vào.
+- Lecture1: // git init - Khởi tạo 1 folder thành 1 folder chứa git
+			// git status - Kiểm tra trạng thái của folder chứa git
+			// git add ten_file - Thêm file có tên là "ten_file" vào staging area
+			// git commit - Commit hết các file đã thêm vào staging area (đưa vào responsitory)
 
-Bài 2 là về: xem các log đã commit, show log đó ra, và xem hiện tại đang có gì khác với lần commit gần nhất.
+- Lecture2: // git log - Xem các lần đã commit, nội dung gồm có 1 chuỗi để tách chuỗi đó ra show log, nội dung commit (message).
+			// git show id - ID là chuỗi mà đã đưa ra sau khi chạy git log
+			// git diff - Xem sự khác nhau nếu có 1 hoặc nhiều file mới modified
+
+- Lecture3: // Working directory - Thư mục hiện hành đang hoạt động với git.
+			// Staging Area - Sau khi add 1 item thì item đó sẽ vô chỗ này.
+			// Responsitory - Sau khi commit thì item nó sẽ ở đây.
