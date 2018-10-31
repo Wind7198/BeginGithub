@@ -47,3 +47,10 @@ Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
 			// git push -u <tên remote> <tên nhánh> -> Push mấy cái đã commit lên github vào link của <tên remote> với nhánh là <tên nhánh>.
 			// git push -> Sau 1 lần git push -u <tên remote> <tên branch> thì lần sau chỉ cần chạy lệnh này nó sẽ mặc định như lệnh đầu.
 			// git clone <link> -> Lấy toàn bộ respositive về, link là link có chứa .git cuối cùng.
+
+- Lecture10: Lưu token github, lưu để lần tiếp theo push lên github ko cần nhập user và pass nữa.
+			 // git config --global credential.helper "save --file ./<tên file>" -> Lưu token vào file <tên file> tại vị trí ./
+			 // git config --global credential.helper save -> Lưu thông tin credential vào file mặc định ".git-credential" chả biết ở đâu nữa :<
+			 // git config --global credential.helper "cache timeout = <x>s" -> lưu vào cache trong 1 khoảng thời gian là <x>
+
+- Lecture11: 
