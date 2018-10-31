@@ -65,3 +65,6 @@ Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
 								 6 - Merge lại với master.
 			 // git checkout -b <tên branch> -> Đã nói rồi.
 			 // git push <tên remote> <tên branch> -> Push code commit bên nhánh <tên branch> lên <tên remote> nếu trên github <tên branch> chưa có thì tạo mới branch.
+
+- Lecture13: Tạo pull request (Dăm ba thằng viết feature zô mấy cái branch sẽ yêu cầu lead xem code của mình, nếu được thì merge vào master, ko thì kêu sửa lại).
+			 Thao tác thực hiện trên giao diện, xem video <a href="https://www.youtube.com/watch?time_continue=555&v=MVGgNteyflw">tại đây</a> để hiểu rõ hơn. 
