@@ -1,5 +1,9 @@
 This project is about how to use github.
 
+Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
+		 <tên file> là tên của file muốn thực hiện cùng với câu lệnh
+		 Cái text editor trong Git tương tự như Vim bên Linux
+
 - Lecture1: // git init -> Khởi tạo 1 folder thành 1 folder chứa git
 			// git status -> Kiểm tra trạng thái của folder chứa git
 			// git add <ten_file> -> Thêm file có tên là "ten_file" vào staging area
@@ -28,3 +32,7 @@ This project is about how to use github.
 - Lecture6: // git reset --soft <id> -> <id> ở đây là các id lấy từ git log, câu lệnh loại tất cả các commit ở trên nó, đưa hết lại về staging area
 			// git reset --mixed <id> -> ..................................., câu lệnh đưa hết tất cả các commit ở trên nó về working directory
 			// git reset --hard <id> -> ..................................., xóa hết các commit ở trên nó (nguy hiểm vcl)
+
+- Lecture7: // git revert <id> -> Xóa hết thay đổi của commit đó so với commit trước đó. Lợi hơn bên git reset.
+
+- Lecture8: // 
