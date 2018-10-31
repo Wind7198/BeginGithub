@@ -3,13 +3,14 @@ This project is about how to use github.
 Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
 		 <tên file> là tên của file muốn thực hiện cùng với câu lệnh
 		 Cái text editor trong Git tương tự như Vim bên Linux.
+		 Nên học thêm cái design file .md (MakeDown File).
 
 - Lecture0: // Cài đặt git: https://git-scm.com/downloads
 			// Mấy câu lệnh dưới chạy trên cmd, hoặc git bash
 
 - Lecture1: // git init -> Khởi tạo 1 folder thành 1 folder chứa git
 			// git status -> Kiểm tra trạng thái của folder chứa git
-			// git add <ten_file> -> Thêm file có tên là "ten_file" vào staging area
+			// git add <ten_file> -> Thêm file có tên là "ten_file" vào staging area, có zụ "git add ." là thêm tất cả file đang trong working directory vào staging area
 			// git commit m "message" -> Commit hết các file đã thêm vào staging area (đưa vào responsitory)
 
 - Lecture2: // git log -> Xem các lần đã commit, nội dung gồm có 1 chuỗi để tách chuỗi đó ra show log, nội dung commit (message).
@@ -40,4 +41,9 @@ Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
 
 - Lecture8: // .gitignore -> Là 1 file và bỏ tên file vào đó, sau đó khi mọi thao tác với git sẽ bỏ qua file đó.
 
-- Lecture9: // 
+- Lecture9: // git remote -v -> Liệt kê danh sách các remote hiện có, có kèm link.
+			// git remote add <tên remote> <link> -> <tên remote> là tên của remote, <link> là link github để add zô (đuôi link là .git).
+			// git remote remove <tên remote> -> Xóa <tên remote> đó.
+			// git push -u <tên remote> <tên nhánh> -> Push mấy cái đã commit lên github vào link của <tên remote> với nhánh là <tên nhánh>.
+			// git push -> Sau 1 lần git push -u <tên remote> <tên branch> thì lần sau chỉ cần chạy lệnh này nó sẽ mặc định như lệnh đầu.
+
