@@ -46,4 +46,4 @@ Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
 			// git remote remove <tên remote> -> Xóa <tên remote> đó.
 			// git push -u <tên remote> <tên nhánh> -> Push mấy cái đã commit lên github vào link của <tên remote> với nhánh là <tên nhánh>.
 			// git push -> Sau 1 lần git push -u <tên remote> <tên branch> thì lần sau chỉ cần chạy lệnh này nó sẽ mặc định như lệnh đầu.
-
+			// git clone <link> -> Lấy toàn bộ respositive về, link là link có chứa .git cuối cùng.
