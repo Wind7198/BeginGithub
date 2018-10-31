@@ -2,7 +2,10 @@ This project is about how to use github.
 
 Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
 		 <tên file> là tên của file muốn thực hiện cùng với câu lệnh
-		 Cái text editor trong Git tương tự như Vim bên Linux
+		 Cái text editor trong Git tương tự như Vim bên Linux.
+
+- Lecture0: // Cài đặt git: https://git-scm.com/downloads
+			// Mấy câu lệnh dưới chạy trên cmd, hoặc git bash
 
 - Lecture1: // git init -> Khởi tạo 1 folder thành 1 folder chứa git
 			// git status -> Kiểm tra trạng thái của folder chứa git
@@ -35,4 +38,6 @@ Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
 
 - Lecture7: // git revert <id> -> Xóa hết thay đổi của commit đó so với commit trước đó. Lợi hơn bên git reset.
 
-- Lecture8: // 
+- Lecture8: // .gitignore -> Là 1 file và bỏ tên file vào đó, sau đó khi mọi thao tác với git sẽ bỏ qua file đó.
+
+- Lecture9: // 
