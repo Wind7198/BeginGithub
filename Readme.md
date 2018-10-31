@@ -53,4 +53,15 @@ Ghi chú: <id> ở đây tượng trưng cho id hiện ra khi nhấn git log
 			 // git config --global credential.helper save -> Lưu thông tin credential vào file mặc định ".git-credential" chả biết ở đâu nữa :<
 			 // git config --global credential.helper "cache timeout = <x>s" -> lưu vào cache trong 1 khoảng thời gian là <x>
 
-- Lecture11: 
+- Lecture11: // git clone <link> -> Ở trên có nói rồi ha.
+			 // git pull -> Kéo data ở trên github về local. Update data ở dưới local.
+
+- Lecture12: Thường khi làm github thì phải làm bên 1 branch khác xong sau đó mới merge lại.
+			Quy trình thường là: 1 - Tạo branch mới.
+								 2 - Code trên branch đó.
+								 3 - Push lên github bên branch đó.
+								 4 - Tạo pull request (Chưa học).
+								 5 - Review Code đã push đó.
+								 6 - Merge lại với master.
+			 // git checkout -b <tên branch> -> Đã nói rồi.
+			 // git push <tên remote> <tên branch> -> Push code commit bên nhánh <tên branch> lên <tên remote> nếu trên github <tên branch> chưa có thì tạo mới branch.
